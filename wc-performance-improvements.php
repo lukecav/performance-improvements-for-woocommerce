@@ -13,7 +13,7 @@
  * WC tested up to:      3.2.6
  *
  * @package WooCommerce_Performance_Improvements
- * @author  Liquid Web
+ * @author  Luke Cavanagh
  */
  
 // Remove order status from my account orders
