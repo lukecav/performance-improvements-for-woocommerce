@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:          WooCommerce - Performance Improvements
- * Plugin URI:           https://github.com/lukecav/woocommermce-performance-improvements
+ * Plugin Name:          Performance Improvements for WooCommerce
+ * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce.
  * Version:              1.0.0
  * Author:               Luke Cavanagh
