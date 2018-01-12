@@ -2,8 +2,8 @@
 /**
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
- * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce.
- * Version:              1.0.0
+ * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce. Also includes specific tweaks for products in the back-end of the store.
+ * Version:              1.0.1
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
@@ -46,3 +46,12 @@ function disable_woocommerce_reviews_remove_dashboard_widgets() {
 	remove_meta_box( 'woocommerce_dashboard_recent_reviews', 'dashboard', 'normal');
 }
 add_action('wp_dashboard_setup', 'disable_woocommerce_reviews_remove_dashboard_widgets', 40);
+
+// Hide tags, featured and type admin columns from the product list
+function unset_some_columns_in_product_list( $column_headers ) { 
+        unset($column_headers['product_tag']);
+        unset($column_headers['featured']);
+        unset($column_headers['product_type']);
+        return $column_headers;
+}
+add_filter( 'manage_edit-product_columns', 'unset_some_columns_in_product_list' );
