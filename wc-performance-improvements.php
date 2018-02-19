@@ -55,3 +55,6 @@ function unset_some_columns_in_product_list( $column_headers ) {
         return $column_headers;
 }
 add_filter( 'manage_edit-product_columns', 'unset_some_columns_in_product_list' );
+
+// Disable background image regeneration
+add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
