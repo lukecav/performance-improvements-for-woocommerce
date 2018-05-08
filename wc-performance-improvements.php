@@ -58,3 +58,10 @@ add_filter( 'manage_edit-product_columns', 'unset_some_columns_in_product_list' 
 
 // Disable background image regeneration
 add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+
+// Disable password strength
+function deregister_or_dequeue_scripts() {
+    wp_dequeue_script('wc-password-strength-meter');
+}
+
+add_action('wp_print_scripts', 'deregister_or_dequeue_scripts', 20);
