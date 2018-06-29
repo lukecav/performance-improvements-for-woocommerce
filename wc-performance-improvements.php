@@ -65,3 +65,6 @@ function deregister_or_dequeue_scripts() {
 }
 
 add_action('wp_print_scripts', 'deregister_or_dequeue_scripts', 20);
+
+// Disable Connect your store to WooCommerce.com to receive extensions updates and support admin notice
+add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
