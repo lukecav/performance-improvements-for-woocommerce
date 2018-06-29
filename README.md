@@ -20,6 +20,9 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 
 ## Changelog
 
+**1.0.2**
+* Hide the “Connect your store to WooCommerce.com to receive extensions updates and support.” admin notice.
+
 **1.0.1**
 * Hide specific admin columns from product list.
 
