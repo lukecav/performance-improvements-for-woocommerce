@@ -20,6 +20,9 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 
 ## Changelog
 
+**1.0.3**
+* Increase the CSV product exporter batch limit from 50 to a more usable 5000.
+
 **1.0.2**
 * Hide the “Connect your store to WooCommerce.com to receive extensions updates and support.” admin notice.
 
