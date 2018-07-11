@@ -29,5 +29,14 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 == Changelog ==
 
+= 1.0.3 =
+Increase the CSV product exporter batch limit from 50 to a more usable 5000.
+
+= 1.0.2 =
+Hide the “Connect your store to WooCommerce.com to receive extensions updates and support.” admin notice.
+
+= 1.0.1 =
+Hide specific admin columns from product list.
+
 = 1.0.0 =
-Initial public release.
+Initial release.
