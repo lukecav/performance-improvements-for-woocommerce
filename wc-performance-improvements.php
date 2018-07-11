@@ -3,7 +3,7 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce. Also includes specific tweaks for products in the back-end of the store.
- * Version:              1.0.2
+ * Version:              1.0.3
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
@@ -69,7 +69,7 @@ add_action('wp_print_scripts', 'deregister_or_dequeue_scripts', 20);
 // Disable Connect your store to WooCommerce.com to receive extensions updates and support admin notice
 add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
 
-// Increase the default batch limit of 50 in the CSV product exporter to a more useable 5000
+// Increase the default batch limit of 50 in the CSV product exporter to a more usable 5000
 add_filter( 'woocommerce_product_export_batch_limit', function () {
     return 5000;
 }, 999 );
