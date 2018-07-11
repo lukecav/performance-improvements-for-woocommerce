@@ -2,10 +2,10 @@
 Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
 Requires at least: 4.7
-Tested up to: 4.9.6
+Tested up to: 4.9.7
 WC tested up to: 3.4.3
 Requires PHP: 5.3
-Stable tag: 1.0.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
