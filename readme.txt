@@ -29,6 +29,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 == Changelog ==
 
+= 1.0.4 =
+Remove marketplace suggestions and connect your store to WooCommerce.com admin notice.
+
 = 1.0.3 =
 Increase the CSV product exporter batch limit from 50 to a more usable 5000.
 
