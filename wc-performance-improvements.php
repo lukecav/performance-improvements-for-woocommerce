@@ -3,14 +3,14 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce. Also includes specific tweaks for products in the back-end of the store.
- * Version:              1.0.4
+ * Version:              1.0.5
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
  * WC requires at least: 3.0.0
- * WC tested up to:      3.5.7
+ * WC tested up to:      3.6.2
  *
  * @package WooCommerce_Performance_Improvements
  * @author  Luke Cavanagh
@@ -76,3 +76,6 @@ add_filter( 'woocommerce_allow_marketplace_suggestions', '__return_false' );
 
 // Remove connect your store to WooCommerce.com admin notice
 add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
+
+// Deregister block style from WooCommerce
+wp_deregister_style( 'wc-block-style' );
