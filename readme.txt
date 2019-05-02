@@ -3,9 +3,9 @@ Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
 Requires at least: 4.7
 Tested up to: 5.1.1
-WC tested up to: 3.5.7
+WC tested up to: 3.6.2
 Requires PHP: 5.6
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.0.5 = 
+Deregister block style from WooCommerce.
 
 = 1.0.4 =
 Remove marketplace suggestions and connect your store to WooCommerce.com admin notice.
