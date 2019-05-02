@@ -20,6 +20,9 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 
 ## Changelog
 
+**1.0.5**
+* Deregister block style from WooCommerce.
+
 **1.0.4**
 * Remove marketplace suggestions and connect your store to WooCommerce.com admin notice.
 
