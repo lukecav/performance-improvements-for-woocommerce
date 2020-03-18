@@ -77,9 +77,6 @@ add_filter( 'woocommerce_allow_marketplace_suggestions', '__return_false' );
 // Remove connect your store to WooCommerce.com admin notice
 add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
 
-// Remove the WooCommerce Admin Install Nag
-wp_deregister_style( 'wc-block-style' );
-
 // Deregister block style from WooCommerce
 add_filter( 'woocommerce_show_admin_notice', 'wc_disable_wc_admin_install_notice', 10, 2 );
 function wc_disable_wc_admin_install_notice( $notice_enabled, $notice ) {
