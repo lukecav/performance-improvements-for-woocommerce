@@ -1,11 +1,11 @@
 === Performance Improvements for WooCommerce ===
 Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
-Requires at least: 4.7
-Tested up to: 5.2.4
+Requires at least: 5.0
+Tested up to: 5.3.2
 WC tested up to: 3.8.0
-Requires PHP: 5.6
-Stable tag: 1.0.6
+Requires PHP: 7.2
+Stable tag: 1.0.7
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.0.7 = 
+Disable the WooCommerce Admin merged into WooCommerce core in version 4.0.0.
 
 = 1.0.6 = 
 Remove the WooCommerce Admin Install Nag.
