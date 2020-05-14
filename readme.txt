@@ -2,10 +2,10 @@
 Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
 Requires at least: 5.0
-Tested up to: 5.3.2
-WC tested up to: 4.0.0
+Tested up to: 5.4.1
+WC tested up to: 4.1.0
 Requires PHP: 7.2
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.0.8 = 
+Disable marketing hub added in version 4.1.0 and supress helper admin notices in WooCommerce.
 
 = 1.0.7 = 
 Disable the WooCommerce Admin merged into WooCommerce core in version 4.0.0.
