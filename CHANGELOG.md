@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Version 1.0.9] - 2020-06-03
+
+* Remove the processing order count in WooCommerce from wp-admin.
+
 ## [Version 1.0.8] - 2020-05-14
 
 * Disable marketing hub and supress helper admin notices in WooCommerce.
