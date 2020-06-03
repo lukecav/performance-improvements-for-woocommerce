@@ -3,27 +3,19 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce. Also includes specific tweaks for products in the back-end of the store.
- * Version:              1.0.8
+ * Version:              1.0.9
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
  * WC requires at least: 4.0.0
- * WC tested up to:      4.1.1
+ * WC tested up to:      4.2.0
  *
  * @package WooCommerce_Performance_Improvements
  * @author  Luke Cavanagh
  */
  
-// Remove order status from my account orders
-add_filter('woocommerce_my_account_my_orders_columns', 'remove_my_account_order_status', 10);
-
-function remove_my_account_order_status($order){
-  unset($order['order-status']);
-  return $order;
-}
-
 // Remove order total from my account orders
 add_filter('woocommerce_my_account_my_orders_columns', 'remove_my_account_order_total', 10);
 
@@ -94,3 +86,6 @@ add_filter( 'woocommerce_marketing_menu_items', '__return_empty_array' );
 
 // Supress WooCommerce Helper Admin Notices
 add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
+
+// Remove Processing Order Count in wp-admin
+add_filter( 'woocommerce_menu_order_count', 'false' );
