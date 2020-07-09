@@ -20,8 +20,12 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 
 ## Changelog
 
-**1.0.8**
-* Disable marketing hub added in version 4.1.0 and supress helper admin notices in WooCommerce.
+
+**1.1.0**
+* Disable marketing hub in version 4.3.0.
+
+**1.0.9**
+* Remove the processing order count in WooCommerce from wp-admin.
 
 **1.0.7**
 * Disable the WooCommerce Admin merged into WooCommerce core in version 4.0.0.
