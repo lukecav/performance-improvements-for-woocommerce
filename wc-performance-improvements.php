@@ -87,9 +87,6 @@ add_filter( 'woocommerce_admin_features', 'disable_features' );
 function disable_features( $features ) {
 	$marketing = array_search('marketing', $features);
 	unset( $features[$marketing] );
-	//$coupons = array_search('coupons', $features);
-	//unset( $features[$coupons] );
-	//array_values( $features );
 	return $features;
 }
 
