@@ -3,14 +3,14 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks related to orders on the front-end and the back-end of a store. Will also disable dashboard widgets for reviews and status in WooCommerce. Also includes specific tweaks for products in the back-end of the store.
- * Version:              1.0.9
+ * Version:              1.1.0
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
  * WC requires at least: 4.0.0
- * WC tested up to:      4.2.2
+ * WC tested up to:      4.3.0
  *
  * @package WooCommerce_Performance_Improvements
  * @author  Luke Cavanagh
@@ -82,7 +82,16 @@ function wc_disable_wc_admin_install_notice( $notice_enabled, $notice ) {
 add_filter( 'woocommerce_admin_disabled', '__return_true' );
 
 // Disable the WooCommere Marketing Hub
-add_filter( 'woocommerce_marketing_menu_items', '__return_empty_array' );
+add_filter( 'woocommerce_admin_features', 'disable_features' );
+
+function disable_features( $features ) {
+	$marketing = array_search('marketing', $features);
+	unset( $features[$marketing] );
+	//$coupons = array_search('coupons', $features);
+	//unset( $features[$coupons] );
+	//array_values( $features );
+	return $features;
+}
 
 // Supress WooCommerce Helper Admin Notices
 add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
