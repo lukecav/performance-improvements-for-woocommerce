@@ -23,7 +23,7 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 
 wp plugin install --activate https://github.com/lukecav/performance-improvements-for-woocommerce/archive/main.zip
 
-# Update via WP-CLI
+## Update via WP-CLI
 wp plugin install --activate https://github.com/envato/wp-envato-market/archive/master.zip --force
 
 ## Automatic Updates
