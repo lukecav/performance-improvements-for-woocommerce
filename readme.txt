@@ -3,7 +3,7 @@ Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
 Requires at least: 5.0
 Tested up to: 5.4.1
-WC tested up to: 4.2.0
+WC tested up to: 4.3.0
 Requires PHP: 7.3
 Stable tag: 1.0.8
 License: GPLv2 or later
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.1.0 = 
+Disable marketing hub added in version 4.3.0
 
 = 1.0.9 = 
 Remove the processing order count in WooCommerce from wp-admin.
