@@ -30,7 +30,7 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 == Changelog ==
 
 = 1.1.0 = 
-Disable marketing hub added in version 4.3.0.
+Disable marketing hub in version 4.3.0.
 
 = 1.0.9 = 
 Remove the processing order count in WooCommerce from wp-admin.
