@@ -18,6 +18,14 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 1. Upload the plugin file performance-improvements-for-woocommerce.zip to the ‘/wp-content/plugins/’ directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the ‘Plugins’ screen in WordPress.
 
+## Via WP-CLI
+[`WP-CLI`](http://wp-cli.org/) is the official command-line interface for WordPress. You can install performance-improvements-for-woocommerce using the wp command like this:
+
+wp plugin install --activate https://github.com/lukecav/performance-improvements-for-woocommerce/archive/main.zip
+
+## Automatic Udates
+Besides WordPress auto updates, Docket Cache supports the [GitHub Updater plugin](https://github.com/afragen/github-updater) WordPress. The plugin enables automatic updates from this GitHub Repository. You will find all information about the how and why at the [plugin wiki page](https://github.com/afragen/github-updater/wiki).
+
 ## Changelog
 
 
