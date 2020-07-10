@@ -27,10 +27,9 @@ wp plugin install --activate https://github.com/lukecav/performance-improvements
 wp plugin install --activate https://github.com/envato/wp-envato-market/archive/master.zip --force
 
 ## Automatic Updates
-Besides WordPress auto updates, Performance Improvements for WooCommerce supports the [GitHub Updater plugin](https://github.com/afragen/github-updater) WordPress. The plugin enables automatic updates from this GitHub Repository. You will find all information about the how and why at the [plugin wiki page](https://github.com/afragen/github-updater/wiki).
+Performance Improvements for WooCommerce supports the [GitHub Updater plugin](https://github.com/afragen/github-updater) WordPress. The plugin enables automatic updates from this GitHub Repository. You will find all information about the how and why at the [plugin wiki page](https://github.com/afragen/github-updater/wiki).
 
 ## Changelog
-
 
 **1.1.0**
 * Disable marketing hub in version 4.3.0.
