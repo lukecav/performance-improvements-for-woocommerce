@@ -95,3 +95,6 @@ add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
 
 // Remove Processing Order Count in wp-admin
 add_filter( 'woocommerce_menu_order_count', 'false' );
+
+// Disable native lazy loading
+add_filter( 'wp_lazy_loading_enabled', '__return_false' );
