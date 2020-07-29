@@ -5,7 +5,7 @@ Requires at least: 5.0
 Tested up to: 5.4.2
 WC tested up to: 4.3.1
 Requires PHP: 7.3
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.1.1 =
+Disable lazy loading in WordPress 5.5 and disable no-cache headers in WooCommerce 4.4.0.
 
 = 1.1.0 = 
 Disable marketing hub in version 4.3.0.
