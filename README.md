@@ -31,6 +31,9 @@ Performance Improvements for WooCommerce supports the [GitHub Updater plugin](ht
 
 ## Changelog
 
+**1.1.1**
+* Disable lazy loading in WordPress 5.5 and disable no-cache headers in WooCommerce 4.4.0.
+
 **1.1.0**
 * Disable marketing hub in version 4.3.0.
 
