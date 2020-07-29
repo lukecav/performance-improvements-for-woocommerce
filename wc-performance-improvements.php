@@ -3,7 +3,7 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks for WooCommerce.
- * Version:              1.1.0
+ * Version:              1.1.1
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
@@ -50,6 +50,9 @@ add_filter( 'manage_edit-product_columns', 'unset_some_columns_in_product_list' 
 
 // Disable background image regeneration
 add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+
+// Disable WooCommerce no-cache headers
+add_filter( 'woocommerce_enable_nocache_headers', '__return_false' );
 
 // Disable password strength
 function deregister_or_dequeue_scripts() {
