@@ -51,9 +51,6 @@ add_filter( 'manage_edit-product_columns', 'unset_some_columns_in_product_list' 
 // Disable background image regeneration
 add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
 
-// Disable WooCommerce no-cache headers
-add_filter( 'woocommerce_enable_nocache_headers', '__return_false' );
-
 // Disable password strength
 function deregister_or_dequeue_scripts() {
     wp_dequeue_script('wc-password-strength-meter');
@@ -101,3 +98,6 @@ add_filter( 'woocommerce_menu_order_count', 'false' );
 
 // Disable native lazy loading
 add_filter( 'wp_lazy_loading_enabled', '__return_false' );
+
+// Disable WooCommerce no-cache headers
+add_filter( 'woocommerce_enable_nocache_headers', '__return_false' );
