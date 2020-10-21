@@ -29,6 +29,10 @@ With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordP
 ## Automatic Updates
 Performance Improvements for WooCommerce supports the [GitHub Updater plugin](https://github.com/afragen/github-updater) WordPress. The plugin enables automatic updates from this GitHub Repository. You will find all information about the how and why at the [plugin wiki page](https://github.com/afragen/github-updater/wiki).
 
+## Via Composer
+From command run ```composer install``` and wait for the installation to complete.
+Run ```composer require lukecav/performance-improvements-for-woocommerce```.
+
 ## Changelog
 
 **1.1.1**
