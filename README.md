@@ -31,7 +31,7 @@ Performance Improvements for WooCommerce supports the [GitHub Updater plugin](ht
 
 ## Via Composer
 From command run ```composer install``` and wait for the installation to complete.
-Run ```composer require lukecav/performance-improvements-for-woocommerce```.
+Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
