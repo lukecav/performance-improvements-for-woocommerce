@@ -1,0 +1,7 @@
+{
+    "name": "lukecav/performance-improvements-for-woocommerce",
+    "description": "Performance tweaks for the front-end and back-end of a store.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2 or later",
+    "require": {}
+}
