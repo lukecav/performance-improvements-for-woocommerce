@@ -11,8 +11,8 @@
         "woocommerce-extension"
     ],
     "support": {
-        "issues": "https://github.com/nexcess/limit-orders-for-woocommerce/issues",
-        "source": "https://github.com/lukecav/performance-improvements-for-woocommerce/issues"
+        "issues": "https://github.com/lukecav/performance-improvements-for-woocommerce/issues",
+        "source": "https://github.com/lukecav/performance-improvements-for-woocommerce"
     },
     "readme": "README.md",
     "author": [
