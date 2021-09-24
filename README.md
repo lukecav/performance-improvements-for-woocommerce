@@ -35,6 +35,9 @@ Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
+**1.1.2**
+* Disable the setup dashboard widget in WooCommerce 5.7.0 and 5.7.1.
+
 **1.1.1**
 * Disable lazy loading in WordPress 5.5 and disable no-cache headers in WooCommerce 4.4.0.
 
