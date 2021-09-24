@@ -5,7 +5,7 @@ Requires at least: 5.0
 Tested up to: 5.8.1
 WC tested up to: 5.7.1
 Requires PHP: 7.3
-Stable tag: 1.1.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.1.3 =
+Hide the marketplace and my subscriptions submenus in WooCommerce.
 
 = 1.1.2 =
 Disable the setup dashboard widget in WooCommerce 5.7.0 and 5.7.1.
