@@ -3,7 +3,7 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks for WooCommerce.
- * Version:              1.1.2
+ * Version:              1.1.3
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * License:              GPL2
@@ -107,3 +107,13 @@ function disable_woocommerce_setup_remove_dashboard_widgets() {
 	remove_meta_box( 'wc_admin_dashboard_setup', 'dashboard', 'normal');
 }
 add_action('wp_dashboard_setup', 'disable_woocommerce_setup_remove_dashboard_widgets', 40);
+
+// Hide marketplace and my subscriptions submenus
+function wc_hide_woocommerce_menus() {
+	//Hide "WooCommerce → Marketplace".
+	remove_submenu_page('woocommerce', 'wc-addons');
+	//Hide "WooCommerce → My Subscriptions".
+	remove_submenu_page('woocommerce', 'wc-addons&section=helper');
+}
+
+add_action('admin_menu', 'wc_hide_woocommerce_menus', 71);
