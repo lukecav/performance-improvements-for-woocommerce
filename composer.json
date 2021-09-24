@@ -4,7 +4,7 @@
     "type": "wordpress-plugin",
     "license": "GPLv2 or later",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.3"
     },
     "keywords": [
         "woocommerce",
