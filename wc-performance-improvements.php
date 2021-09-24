@@ -101,3 +101,9 @@ add_filter( 'wp_lazy_loading_enabled', '__return_false' );
 
 // Disable WooCommerce no-cache headers
 add_filter( 'woocommerce_enable_nocache_headers', '__return_false' );
+
+// Disable setup widget
+function disable_woocommerce_setup_remove_dashboard_widgets() {
+	remove_meta_box( 'wc_admin_dashboard_setup', 'dashboard', 'normal');
+}
+add_action('wp_dashboard_setup', 'disable_woocommerce_setup_remove_dashboard_widgets', 40);
