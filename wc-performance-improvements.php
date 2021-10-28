@@ -9,7 +9,7 @@
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
- * WC requires at least: 4.0.0
+ * WC requires at least: 5.0.2
  * WC tested up to:      5.8.0
  *
  * @package WooCommerce_Performance_Improvements
