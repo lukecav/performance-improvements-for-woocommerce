@@ -8,11 +8,6 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 ## Installation
 
-
-### Automated Installation
-
-You can simply go to Plugins > Add New in the WordPress Admin. Next, search for "Performance Improvements for WooCommerce" and click Install Now. 
-
 ### Manual Installation
 
 1. Upload the plugin file performance-improvements-for-woocommerce.zip to the ‘/wp-content/plugins/’ directory, or install the plugin through the WordPress plugins screen directly.
