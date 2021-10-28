@@ -117,3 +117,6 @@ function wc_hide_woocommerce_menus() {
 }
 
 add_action('admin_menu', 'wc_hide_woocommerce_menus', 71);
+
+// Delete the WooCommerce usage tracker cron event
+wp_clear_scheduled_hook( 'woocommerce_tracker_send_event' );
