@@ -11,7 +11,7 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 ### Automated Installation
 
-With WordPress 2.7 or above, you can simply go to Plugins > Add New in the WordPress Admin. Next, search for "Performance Improvements for WooCommerce" and click Install Now. 
+You can simply go to Plugins > Add New in the WordPress Admin. Next, search for "Performance Improvements for WooCommerce" and click Install Now. 
 
 ### Manual Installation
 
