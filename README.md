@@ -35,6 +35,9 @@ Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
+**1.1.4**
+Delete the usage tracker cron event in WooCommerce.
+
 **1.1.3**
 * Hide the marketplace and my subscriptions submenus in WooCommerce.
 
