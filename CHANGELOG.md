@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [1.1.4] - 2021-10-28
+## [Version 1.1.4] - 2021-10-28
 
 * Delete the usage tracker cron event in WooCommerce.
 
@@ -64,3 +64,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Version 1.0.0] - 2017-12-28
 
 * Initial public release of the plugin.
+
+[Version 1.1.4]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.4
+[Version 1.1.3]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.3
+[Version 1.1.2]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.2
+[Version 1.1.1]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.1
+[Version 1.1.0]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.0
+[Version 1.0.9]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.9
+[Version 1.0.8]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.8
+[Version 1.0.7]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.7
+[Version 1.0.6]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.6
+[Version 1.0.5]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.5
+[Version 1.0.4]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.4
+[Version 1.0.3]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.3
+[Version 1.0.2]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.2
+[Version 1.0.1]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.1
+[Version 1.0.0]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.0.1
