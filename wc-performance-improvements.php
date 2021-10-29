@@ -6,11 +6,13 @@
  * Version:              1.1.4
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
+ * Requires at least:    5.6
+ * Requires PHP:         7.0
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
- * WC requires at least: 5.0.2
- * WC tested up to:      5.8.0
+ * WC requires at least: 5.0
+ * WC tested up to:      5.8
  *
  * @package WooCommerce_Performance_Improvements
  * @author  Luke Cavanagh
