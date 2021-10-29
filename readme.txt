@@ -1,9 +1,9 @@
 === Performance Improvements for WooCommerce ===
 Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
-Requires at least: 5.5
-Tested up to: 5.8.1
-WC tested up to: 5.8.0
+Requires at least: 5.6
+Tested up to: 5.8
+WC tested up to: 5.8
 Requires PHP: 7.3
 Stable tag: 1.1.4
 License: GPLv2 or later
