@@ -29,6 +29,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 == Changelog ==
 
+= 1.1.5 =
+Bump WooCommerce and WordPress tested versions.
+
 = 1.1.4 =
 Delete the usage tracker cron event in WooCommerce.
 
