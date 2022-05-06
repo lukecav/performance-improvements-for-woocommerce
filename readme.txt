@@ -5,7 +5,7 @@ Requires at least: 5.6
 Tested up to: 6.0
 WC tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
