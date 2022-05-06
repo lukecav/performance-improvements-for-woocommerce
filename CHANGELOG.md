@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Version 1.1.5] - 2022-05-06
+
+* Bump WooCommerce and WordPress tested versions.
+
 ## [Version 1.1.4] - 2021-10-28
 
 * Delete the usage tracker cron event in WooCommerce.
@@ -80,3 +84,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [Version 1.1.2]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.2
 [Version 1.1.3]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.3
 [Version 1.1.4]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.4
+[Version 1.1.5]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.5
