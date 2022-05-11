@@ -7,7 +7,7 @@
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * Requires at least:    5.6
- * Requires PHP:         7.0
+ * Requires PHP:         7.4
  * License:              GPL2
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
