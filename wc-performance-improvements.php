@@ -3,7 +3,7 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks for WooCommerce.
- * Version:              1.1.5
+ * Version:              1.1.6
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * Requires at least:    5.6
