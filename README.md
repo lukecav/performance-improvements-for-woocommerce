@@ -30,6 +30,9 @@ Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
+**1.1.7**
+* Bump WooCommerce tested version.
+
 **1.1.6**
 * Bump required PHP version to 7.4.
 
