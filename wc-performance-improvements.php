@@ -12,7 +12,7 @@
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  *
  * WC requires at least: 5.0
- * WC tested up to:      6.5
+ * WC tested up to:      6.6
  *
  * @package WooCommerce_Performance_Improvements
  * @author  Luke Cavanagh
