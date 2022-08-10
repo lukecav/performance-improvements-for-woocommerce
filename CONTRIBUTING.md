@@ -31,12 +31,12 @@ This project adheres to the [WordPress coding standards](https://make.wordpress.
 
 This project uses [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) as a branching strategy:
 
-* `develop` represents the current development version, whereas `master` represents the latest stable release.
+* `develop` represents the current development version, whereas `main` represents the latest stable release.
 * All work should be done in separate feature branches, which should be branched from `develop`.
 
 
 #### Tagging a new release
 
-When a new release is being prepared, a new `release/vX.X.X` branch will be created from `develop`, version numbers bumped and any last-minute release adjustments made, then the release branch will be merged (via non-fast-forward merge) into `master`.
+When a new release is being prepared, a new `release/vX.X.X` branch will be created from `develop`, version numbers bumped and any last-minute release adjustments made, then the release branch will be merged (via non-fast-forward merge) into `main`.
 
-Once master has been updated, the release should be tagged, then `master` should be merged into `develop`.
+Once master has been updated, the release should be tagged, then `main` should be merged into `develop`.
