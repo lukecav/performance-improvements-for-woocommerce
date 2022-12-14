@@ -124,3 +124,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [Version 1.1.10]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.10
 [Version 1.1.11]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.11
 [Version 1.1.12]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.12
+[Version 1.1.13]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.13
