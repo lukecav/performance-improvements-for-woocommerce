@@ -30,6 +30,9 @@ Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
+**1.1.13**
+* Bump WooCommerce tested version.
+
 **1.1.12**
 * Bump WooCommerce tested version.
 
