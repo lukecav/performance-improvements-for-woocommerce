@@ -3,7 +3,7 @@
  * Plugin Name:          Performance Improvements for WooCommerce
  * Plugin URI:           https://github.com/lukecav/performance-improvements-for-woocommerce
  * Description:          Performance tweaks for WooCommerce.
- * Version:              1.1.16
+ * Version:              1.1.17
  * Author:               Luke Cavanagh
  * Author URI:           https://github.com/lukecav
  * Requires at least:    5.6
@@ -122,3 +122,6 @@ add_action('admin_menu', 'wc_hide_woocommerce_menus', 71);
 
 // Delete the WooCommerce usage tracker cron event
 wp_clear_scheduled_hook( 'woocommerce_tracker_send_event' );
+
+// Disable the Payment Gateway Admin Suggestions
+add_filter('woocommerce_admin_payment_gateway_suggestion_specs',  '__return_empty_array');
