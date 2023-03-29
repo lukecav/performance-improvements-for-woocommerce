@@ -5,7 +5,7 @@ Requires at least: 7.2
 Tested up to: 5.6
 WC tested up to: 7.5
 Requires PHP: 7.4
-Stable tag: 1.1.16
+Stable tag: 1.1.17
 License: GPLv2 or later
 
 Performance tweaks for the front-end and back-end of a store.
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.1.17 =
+Disable the Payment Gateway Admin Suggestions.
 
 = 1.1.16 =
 Bump WooCommerce tested version.
