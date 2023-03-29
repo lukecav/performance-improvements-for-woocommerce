@@ -30,6 +30,9 @@ Run ```composer require lukecav/performance-improvements-for-woocommerce```
 
 ## Changelog
 
+**1.1.17**
+* Disable the Payment Gateway Admin Suggestions.
+
 **1.1.16**
 * Bump WooCommerce tested version.
 
