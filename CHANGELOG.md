@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Version 1.1.25] - 2023-11-16
+
+* Bump WooCommerce tested version.
+
 ## [Version 1.1.24] - 2023-10-11
 
 * Bump WooCommerce tested version.
@@ -180,3 +184,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [Version 1.1.22]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.22
 [Version 1.1.23]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.23
 [Version 1.1.24]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.24
+[Version 1.1.25]: https://github.com/lukecav/performance-improvements-for-woocommerce/releases/tag/v1.1.25
