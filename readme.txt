@@ -3,7 +3,7 @@ Contributors: lukecav
 Tags:  woocommerce, performance, dashboard, orders, widgets, disable
 Requires at least: 7.2
 Tested up to: 5.6
-WC tested up to: 8.3
+WC tested up to: 8.4
 Requires PHP: 7.4
 Stable tag: 1.1.25
 License: GPLv2 or later
@@ -28,6 +28,9 @@ Performance tweaks related to orders on the front-end and the back-end of a stor
 
 
 == Changelog ==
+
+= 1.1.26 =
+Bump WooCommerce tested version.
 
 = 1.1.25 =
 Bump WooCommerce tested version.
